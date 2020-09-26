@@ -1,7 +1,7 @@
 def turn_count(board)
   counter = 0
   board.each do |count|
-    board[count] == "X" || board[count] == "O"
+    board[count] = position_taken?(board, count)
     counter +=1
   end
   return counter
