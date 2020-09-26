@@ -3,10 +3,9 @@ def turn_count(board, index)
   board.each do |spaces|  #look at each space of board array and creates a variable called count
     if board[index] = position_taken?(board, index) #while going through each index, verify if it's taken.
       counter += 1 #if position is taken, add 1 to counter.
-
     end
-    puts "There are #{counter} spaces taken"
   end
+  puts "There are #{counter} spaces taken." #after going through all spaces of index, print how many spaces are taken.
 end
 
 
