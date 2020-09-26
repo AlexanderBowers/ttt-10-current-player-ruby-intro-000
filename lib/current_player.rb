@@ -5,5 +5,4 @@ board.each do |count|
       count +=1
     end
   end
-
 end
