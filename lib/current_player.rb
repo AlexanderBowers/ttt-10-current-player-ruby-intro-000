@@ -1,5 +1,5 @@
 require 'pry'
-def turn_count(board, index)
+def turn_count(board)
   counter = 0
   board.each do |count|  #look at each space of board array and creates a variable called count
     if count = position_taken?(board, count) #while going through each index, verify if it's taken.
