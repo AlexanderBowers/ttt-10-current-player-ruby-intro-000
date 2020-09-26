@@ -6,7 +6,7 @@ def turn_count(board, index)
       counter += 1 #if position is taken, add 1 to counter.
     end
   end
-  binding.pry
+  binding pry
   puts "There are #{counter} spaces taken." #after going through all spaces of index, print how many spaces are taken.
 end
 
