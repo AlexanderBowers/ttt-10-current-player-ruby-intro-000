@@ -11,5 +11,4 @@ def current_player(board)
 end
 
 def position_taken?(board, index)
-  taken
-  if board[index] == "X" || board == "O"
+  taken = board[index] == "X" || board == "O"
