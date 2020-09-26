@@ -15,3 +15,6 @@ def position_taken? (board, index)
   taken = board[index] == "X" || board[index] == "O"
 return taken
 end
+
+def current_player(board)
+end
