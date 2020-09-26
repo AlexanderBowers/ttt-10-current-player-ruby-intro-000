@@ -12,3 +12,4 @@ end
 
 def position_taken?(board, index)
   taken = board[index] == "X" || board == "O"
+return taken
