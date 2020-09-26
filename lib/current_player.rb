@@ -6,6 +6,3 @@ board.each do |count|  #look at each space of board array and creates a variable
     end
   end
 end
-
-
-#Could use an existing position_taken? method, but 
