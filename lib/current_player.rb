@@ -9,3 +9,5 @@ end
 
 def current_player(board)
 end
+
+def position_taken?(board, index)
