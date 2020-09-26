@@ -9,3 +9,5 @@ end
 
 def position_taken? (board, index)
   taken = board[index] == "X" || board[index] == "O"
+return taken
+end
