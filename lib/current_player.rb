@@ -1,3 +1,4 @@
+require binding
 def turn_count(board, index)
   counter = 0
   board.each do |count|  #look at each space of board array and creates a variable called count
